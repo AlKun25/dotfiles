@@ -1,0 +1,18 @@
+# user.name / user.email are intentionally not set here -- they can differ
+# per machine (e.g. work vs personal). install.sh prompts for them on first
+# run and writes them to ~/.gitconfig.local, which is untracked.
+[include]
+	path = ~/.gitconfig.local
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[http]
+	postBuffer = 157286400
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	last = log -1 HEAD

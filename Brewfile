@@ -37,5 +37,5 @@ brew "opencode"
 cask "cmux"
 
 # Terminal
-cask "alacritty"
+cask "ghostty"
 cask "font-symbols-only-nerd-font"

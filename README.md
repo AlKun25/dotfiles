@@ -18,7 +18,7 @@ Safe to re-run.
 
 1. Installs Xcode Command Line Tools and Homebrew if missing.
 2. `brew bundle` installs everything in `Brewfile`: git tooling, shell/search
-   utilities, neovim, node, uv, pyenv, pipx, opencode, cmux, ghostty.
+   utilities, neovim, node, uv, pyenv, pipx, opencode, Orca ADE, ghostty.
 3. Symlinks `zsh/` and `git/` into `$HOME` with [GNU Stow](https://www.gnu.org/software/stow/)
    (any pre-existing real files at those paths are moved to
    `~/.dotfiles_backup/<timestamp>/` first, not overwritten).

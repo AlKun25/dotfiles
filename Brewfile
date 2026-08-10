@@ -34,7 +34,8 @@ brew "pipx"
 # AI coding tools. Claude Code is installed separately via its native
 # installer in install.sh, not brew -- see that script for why.
 brew "opencode"
-cask "cmux"
+tap "stablyai/orca"
+cask "stablyai/orca/orca" # Orca ADE: orchestrates AI coding agents across terminals/worktrees
 
 # Terminal
 cask "ghostty"
